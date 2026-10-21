@@ -1,6 +1,7 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {mkdtemp,rm} from 'node:fs/promises';
+import {existsSync} from 'node:fs';
 import {tmpdir} from 'node:os';
 import path from 'node:path';
 import {createServer} from 'node:http';
@@ -64,7 +65,7 @@ test('HTTP multi-size creates one reviewable group atomically and never approves
  try{const t=await post('/tasks',{brief:brief('multi_size'),asset_ids:['a']});const p=await post(`/tasks/${t.data.id}/plan`);assert.equal(p.status,200);const tasks=store.tasks();assert.equal(tasks.length,3);assert.equal(new Set(tasks.map(t=>t.variant_group!.id)).size,1);assert(tasks.every(t=>t.state==='WAITING_PLAN_APPROVAL'&&!t.plan_approved_version&&t.artifacts.length===0&&!!t.edl?.bgm));const again=await post(`/tasks/${t.data.id}/plan`);assert.equal(again.status,409);assert.equal(store.tasks().length,3);}
  finally{await new Promise<void>(r=>server.close(()=>r()));store.close();await rm(root,{recursive:true,force:true});}
 });
-test('real media: reference cuts, music onsets, caption animation, replacement voice and B-roll audio render',async()=>{
+test('real media: reference cuts, music onsets, caption animation, replacement voice and B-roll audio render',{skip:!existsSync(process.env.CUTFLOW_TTS_BIN||'.local/voice-env/bin/edge-tts')},async()=>{
  const root=await mkdtemp(path.join(tmpdir(),'cutflow-skill-media-'));
  try{
   const source=path.join(root,'source.mp4');await command('ffmpeg',['-hide_banner','-nostdin','-y','-f','lavfi','-i','color=c=red:s=320x180:d=3:r=30','-f','lavfi','-i','color=c=blue:s=320x180:d=3:r=30','-f','lavfi','-i','color=c=white:s=320x180:d=3:r=30','-f','lavfi','-i','sine=frequency=440:duration=9','-filter_complex','[0:v][1:v][2:v]concat=n=3:v=1:a=0[v]','-map','[v]','-map','3:a','-c:v','libx264','-pix_fmt','yuv420p','-c:a','aac',source]);
