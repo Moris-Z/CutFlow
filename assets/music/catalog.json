@@ -1,0 +1,92 @@
+[
+  {
+    "id": "carefree",
+    "title": "Carefree",
+    "author": "Kevin MacLeod",
+    "tags": [
+      "轻快",
+      "生活方式",
+      "通用"
+    ],
+    "duration_ms": 205140,
+    "sha256": "8433b770a630d9b1594fd484442c677907ece899a4d149954cd2e74fd733e311",
+    "license": "CC BY 4.0 · 需署名",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source_url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037",
+    "download_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Carefree.mp3",
+    "attribution": "\"Carefree\" Kevin MacLeod (incompetech.com)\nLicensed under Creative Commons: By Attribution 4.0 License\nhttps://creativecommons.org/licenses/by/4.0/",
+    "origin": "builtin"
+  },
+  {
+    "id": "monkeys-spinning-monkeys",
+    "title": "Monkeys Spinning Monkeys",
+    "author": "Kevin MacLeod",
+    "tags": [
+      "趣味",
+      "宠物",
+      "反差"
+    ],
+    "duration_ms": 125074,
+    "sha256": "a5bb345c23849ad0786aa0bc5157a9f2d4039660fe00282e55754d475f36dc14",
+    "license": "CC BY 4.0 · 需署名",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source_url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400011",
+    "download_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Monkeys%20Spinning%20Monkeys.mp3",
+    "attribution": "\"Monkeys Spinning Monkeys\" Kevin MacLeod (incompetech.com)\nLicensed under Creative Commons: By Attribution 4.0 License\nhttps://creativecommons.org/licenses/by/4.0/",
+    "origin": "builtin"
+  },
+  {
+    "id": "wallpaper",
+    "title": "Wallpaper",
+    "author": "Kevin MacLeod",
+    "tags": [
+      "明亮",
+      "数码",
+      "运动"
+    ],
+    "duration_ms": 220056,
+    "sha256": "9fa810e5193c88f1b360537366f210f16c2588106d5292f0659e9957fa274f96",
+    "license": "CC BY 4.0 · 需署名",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source_url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100843",
+    "download_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Wallpaper.mp3",
+    "attribution": "\"Wallpaper\" Kevin MacLeod (incompetech.com)\nLicensed under Creative Commons: By Attribution 4.0 License\nhttps://creativecommons.org/licenses/by/4.0/",
+    "origin": "builtin"
+  },
+  {
+    "id": "funkorama",
+    "title": "Funkorama",
+    "author": "Kevin MacLeod",
+    "tags": [
+      "律动",
+      "美食",
+      "开箱"
+    ],
+    "duration_ms": 201456,
+    "sha256": "6be229815d85a0b99382b944d31098b882702c04ac7ad899e44ab7f8ba89b5ad",
+    "license": "CC BY 4.0 · 需署名",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source_url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100474",
+    "download_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Funkorama.mp3",
+    "attribution": "\"Funkorama\" Kevin MacLeod (incompetech.com)\nLicensed under Creative Commons: By Attribution 4.0 License\nhttps://creativecommons.org/licenses/by/4.0/",
+    "origin": "builtin"
+  },
+  {
+    "id": "beach-bum",
+    "title": "Beach Bum",
+    "author": "Kevin MacLeod",
+    "tags": [
+      "活力",
+      "旅行",
+      "户外"
+    ],
+    "duration_ms": 52344,
+    "sha256": "2c92107d1df98ac337cc89db54149e75b6e9a3b3439872b921bab49fb428246f",
+    "license": "CC BY 4.0 · 需署名",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source_url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100347",
+    "download_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Beach%20Bum.mp3",
+    "attribution": "\"Beach Bum\" Kevin MacLeod (incompetech.com)\nLicensed under Creative Commons: By Attribution 4.0 License\nhttps://creativecommons.org/licenses/by/4.0/",
+    "origin": "builtin"
+  }
+]
